@@ -1,0 +1,122 @@
+{
+  "count": 100000,
+  "filtered": 100000,
+  "total": {
+    "salary": "330237682",
+    "taxes": "267492522.42"
+  },
+  "data": [
+    {
+      "dtRowId": 1,
+      "name": "Emile Kirlin",
+      "position": "Orthotist OR Prosthetist",
+      "seniority": "assistant",
+      "project": "Webshop",
+      "salary": 5319,
+      "taxes": "4308.39",
+      "is_active": false,
+      "hired_at": "25-09-2015"
+    },
+    {
+      "dtRowId": 2,
+      "name": "Marjory Franecki PhD",
+      "position": "Boilermaker",
+      "seniority": "senior",
+      "project": "Enso SPA",
+      "salary": 2833,
+      "taxes": "2294.73",
+      "is_active": true,
+      "hired_at": "21-06-2017"
+    },
+    {
+      "dtRowId": 3,
+      "name": "Barry Brown",
+      "position": "Motorboat Mechanic",
+      "seniority": "staff",
+      "project": "Enso SPA",
+      "salary": 1106,
+      "taxes": "895.86",
+      "is_active": true,
+      "hired_at": "03-01-2018"
+    },
+    {
+      "dtRowId": 4,
+      "name": "Mara Renner MD",
+      "position": "Recreation Worker",
+      "seniority": "staff",
+      "project": "AdminLTE",
+      "salary": 2655,
+      "taxes": "2150.55",
+      "is_active": true,
+      "hired_at": "23-08-2016"
+    },
+    {
+      "dtRowId": 5,
+      "name": "Moises Kihn",
+      "position": "Audiologist",
+      "seniority": "associate",
+      "project": "AdminLTE",
+      "salary": 4908,
+      "taxes": "3975.48",
+      "is_active": false,
+      "hired_at": "02-09-2015"
+    },
+    {
+      "dtRowId": 6,
+      "name": "Jaden Gusikowski",
+      "position": "Construction Manager",
+      "seniority": "assistant",
+      "project": "Enso SPA",
+      "salary": 3536,
+      "taxes": "2864.16",
+      "is_active": true,
+      "hired_at": "31-12-2013"
+    },
+    {
+      "dtRowId": 7,
+      "name": "Lillie Ondricka",
+      "position": "Reservation Agent OR Transportation Ticket Agent",
+      "seniority": "assistant",
+      "project": "Enso SPA",
+      "salary": 1554,
+      "taxes": "1258.74",
+      "is_active": true,
+      "hired_at": "10-02-2015"
+    },
+    {
+      "dtRowId": 8,
+      "name": "Lorine Trantow PhD",
+      "position": "Social Scientists",
+      "seniority": "associate",
+      "project": "Webshop",
+      "salary": 4872,
+      "taxes": "3946.32",
+      "is_active": false,
+      "hired_at": "30-05-2017"
+    },
+    {
+      "dtRowId": 9,
+      "name": "Mariam Fisher",
+      "position": "Gas Pumping Station Operator",
+      "seniority": "staff",
+      "project": "AdminLTE",
+      "salary": 4986,
+      "taxes": "4038.66",
+      "is_active": true,
+      "hired_at": "17-10-2015"
+    },
+    {
+      "dtRowId": 10,
+      "name": "Tommie Erdman",
+      "position": "Substance Abuse Social Worker",
+      "seniority": "assistant",
+      "project": "AdminLTE",
+      "salary": 3109,
+      "taxes": "2518.29",
+      "is_active": true,
+      "hired_at": "22-12-2015"
+    }
+  ],
+  "fullRecordInfo": true,
+  "filters": false
+}

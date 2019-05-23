@@ -1,0 +1,243 @@
+{
+  "template": {
+    "crtNo": true,
+    "selectable": true,
+    "columns": [
+      {
+        "label": "Name",
+        "name": "name",
+        "data": "name",
+        "meta": {
+          "searchable": true,
+          "sortable": true,
+          "translatable": false,
+          "boolean": false,
+          "slot": false,
+          "rogue": false,
+          "total": false,
+          "date": false,
+          "icong": false,
+          "clickable": false,
+          "customTotal": false,
+          "notExportable": false,
+          "nullLast": false,
+          "visible": true,
+          "hidden": false,
+          "sort": null
+        }
+      },
+      {
+        "label": "Position",
+        "name": "position",
+        "data": "position",
+        "meta": {
+          "searchable": true,
+          "sortable": true,
+          "translatable": false,
+          "boolean": false,
+          "slot": false,
+          "rogue": false,
+          "total": false,
+          "date": false,
+          "icong": false,
+          "clickable": true,
+          "customTotal": false,
+          "notExportable": false,
+          "nullLast": false,
+          "visible": true,
+          "hidden": false,
+          "sort": null
+        }
+      },
+      {
+        "label": "Seniority",
+        "name": "seniority",
+        "data": "seniority",
+        "enum": "LaravelEnso\\Examples\\app\\Enums\\SeniorityEnum",
+        "meta": {
+          "searchable": false,
+          "sortable": true,
+          "translatable": false,
+          "boolean": false,
+          "slot": false,
+          "rogue": false,
+          "total": false,
+          "date": false,
+          "icong": false,
+          "clickable": false,
+          "customTotal": false,
+          "notExportable": false,
+          "nullLast": false,
+          "visible": true,
+          "hidden": false,
+          "sort": null
+        }
+      },
+      {
+        "label": "Project",
+        "name": "project",
+        "data": "project",
+        "meta": {
+          "searchable": true,
+          "sortable": true,
+          "translatable": false,
+          "boolean": false,
+          "slot": true,
+          "rogue": false,
+          "total": false,
+          "date": false,
+          "icong": false,
+          "clickable": false,
+          "customTotal": false,
+          "notExportable": false,
+          "nullLast": false,
+          "visible": true,
+          "hidden": false,
+          "sort": null
+        }
+      },
+      {
+        "label": "Salary",
+        "name": "salary",
+        "data": "salary",
+        "meta": {
+          "searchable": true,
+          "sortable": true,
+          "translatable": false,
+          "boolean": false,
+          "slot": false,
+          "rogue": false,
+          "total": true,
+          "date": false,
+          "icong": false,
+          "clickable": false,
+          "customTotal": false,
+          "notExportable": false,
+          "nullLast": false,
+          "visible": true,
+          "hidden": false,
+          "sort": null
+        },
+        "money": []
+      },
+      {
+        "label": "Taxes",
+        "name": "taxes",
+        "data": "taxes",
+        "meta": {
+          "searchable": true,
+          "sortable": true,
+          "translatable": false,
+          "boolean": false,
+          "slot": false,
+          "rogue": false,
+          "total": true,
+          "date": false,
+          "icong": false,
+          "clickable": false,
+          "customTotal": false,
+          "notExportable": false,
+          "nullLast": false,
+          "visible": true,
+          "hidden": false,
+          "sort": null
+        },
+        "money": []
+      },
+      {
+        "label": "Active",
+        "name": "is_active",
+        "data": "is_active",
+        "meta": {
+          "searchable": false,
+          "sortable": true,
+          "translatable": false,
+          "boolean": true,
+          "slot": false,
+          "rogue": false,
+          "total": false,
+          "date": false,
+          "icong": false,
+          "clickable": false,
+          "customTotal": false,
+          "notExportable": false,
+          "nullLast": false,
+          "visible": true,
+          "hidden": false,
+          "sort": null
+        }
+      },
+      {
+        "label": "Hired Since",
+        "name": "hired_at",
+        "data": "hired_at",
+        "meta": {
+          "searchable": false,
+          "sortable": true,
+          "translatable": false,
+          "boolean": false,
+          "slot": false,
+          "rogue": false,
+          "total": false,
+          "date": true,
+          "icong": false,
+          "clickable": false,
+          "customTotal": false,
+          "notExportable": false,
+          "nullLast": false,
+          "visible": true,
+          "hidden": false,
+          "sort": null
+        }
+      }
+    ],
+    "readPath": "\/img\/data.json",
+    "lengthMenu": [
+      10,
+      15,
+      20,
+      25,
+      30
+    ],
+    "debounce": 350,
+    "method": "GET",
+    "responsive": true,
+    "labels": {
+      "crtNo": "#",
+      "actions": "Actions"
+    },
+    "pathSegment": "table",
+    "actions": true,
+    "align": "has-text-centered",
+    "style": "is-hoverable is-striped",
+    "aligns": {
+      "center": "has-text-centered",
+      "left": "has-text-left",
+      "right": "has-text-right"
+    },
+    "styles": {
+      "compact": "is-narrow",
+      "hover": "is-hoverable",
+      "striped": "is-striped",
+      "bordered": "is-bordered"
+    },
+    "highlight": "has-background-info"
+  },
+  "meta": {
+    "length": 10,
+    "comparisonOperator": "LIKE",
+    "fullInfoRecordLimit": 1000000,
+    "start": 0,
+    "search": "",
+    "loading": false,
+    "forceInfo": false,
+    "searchable": true,
+    "sort": true,
+    "total": true,
+    "date": true,
+    "translatable": false,
+    "enum": true,
+    "money": true
+  },
+  "apiVersion": "3.0"
+}
